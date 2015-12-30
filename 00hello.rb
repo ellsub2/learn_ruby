@@ -1,4 +1,6 @@
+# encoding: UTF-8
 puts "Hello Ruby!"
+puts "ほげほげ"
 
 print "hello Ruby!\n"
 print "hello ", "ryby", "!\n"
