@@ -7,3 +7,5 @@ elsif value == 10
 else
 	puts "hogehogehogehoge"
 end
+
+print "value is 10\n" if value == 10
