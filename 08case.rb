@@ -21,7 +21,6 @@ array.each do |item|
 	when Numeric
 		puts "#{item} is Numeric."
 	else
-		puts "#{item} is not something."
+		puts "#{item} is not ほげほげ."
 	end
 end
-
