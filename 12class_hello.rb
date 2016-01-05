@@ -8,14 +8,19 @@ class HelloWorld		#class名は必ず大文字
 	end 
 
 	#@nameの参照用------------------------
-	def name
-		@name
-	end 
-
+	#def name
+	#	@name #returnしている
+	#end 
+	
 	#@nameを変更する----------------------
-	def name=(value)
-		@name = value
-	end 
+	#def name=(value)
+	#	@name = value 
+	#end 
+	######################################
+	#次のメソッドを使用すれば良い。
+	######################################
+	
+	attr_accessor :name 
 
 	#puts hello---------------------------
 	def hello					#インスタンスメソッド
